@@ -8,3 +8,6 @@ apt-get install -y php5.6 libapache2-mod-php5.6 php5.6-fpm php5.6-mysql php5.6-x
 
 # Configure
 phpenmod -v ALL -s ALL json opcache gd pdo zip intl pdo_mysql
+
+service php5.6-fpm restart
+service php7.2-fpm restart
